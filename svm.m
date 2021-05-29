@@ -1,6 +1,7 @@
 %SVM
+%The fitcsvm function trains the support vector machine model for binary classification.
 disp("SUPPORT VECTOR MACHINE");
-csvm = fitcsvm(x_train,y_train,'OptimizeHyperparameters','all');
+csvm = fitcsvm(x_train,y_train,'OptimizeHyperparameters','all');% It returns an svm classifier trained using the predictor variables in the table x_train and the vectors y_train.
 
 %%
 %testing on the test values

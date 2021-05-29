@@ -1,5 +1,6 @@
 %%
 %discriminant analysis
+% fitcdiscr() function returns a fitted discriminant analysis model based on the input variables contained in x_train and response y_train
 %the model
 disp("DISCRIMINANT ANALYSIS");
 discr_analysis = fitcdiscr(x_train,y_train,'OptimizeHyperparameters','all');
